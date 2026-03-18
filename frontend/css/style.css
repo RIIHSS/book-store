@@ -1,0 +1,82 @@
+/* Reset */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: #222222;
+    color: white;
+    padding: 15px 30px;
+}
+
+.navbar button {
+    margin-left: 10px;
+    padding: 8px 12px;
+}
+
+/* Banner */
+.banner {
+    text-align: center;
+    padding: 50px;
+    background: #f4f4f4f4;
+}
+
+/* Books Section */
+.books {
+    padding: 30px;
+}
+
+.book-container {
+    display: flex;
+    gap: 20px;
+}
+
+/* Card */
+.card {
+    border: 1px solid #cccccc;
+    padding: 15px;
+    width: 200px;
+}
+
+/* Categories */
+.categories {
+    padding: 30px;
+}
+
+.category-buttons button {
+    margin-right: 10px;
+    padding: 10px;
+}
+
+/* Offers */
+.offers {
+    background: orange;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Contact */
+.contact {
+    padding: 30px;
+}
+
+.contact input,
+.contact textarea {
+    display: block;
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+/* Footer */
+footer{
+    background: #222222;
+    color: white;
+    text-align: center;
+    padding: 10px; 
+}
+
